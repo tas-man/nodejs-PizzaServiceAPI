@@ -29,23 +29,38 @@ PUT     (Requires: phone & one or more parameters to update) + LOGIN (token pass
 
 DELETE  (Requires: phone) + LOGIN (token passed in header)
 
+
 /tokens
+
 POST    (Requires: phone, password)
+
 GET     (Requires: token)
+
 PUT     (Requires: token, extend expiration time(boolean))
+
 DELETE  (Requires: token)
 
+
 /items
+
 GET     (Requires:) + LOGIN (token passed in header)
+
 
 /carts
+
 POST    (Requires: item, quantity) + LOGIN (token passed in header)
+
 GET     (Requires:) + LOGIN (token passed in header)
+
 PUT     (Requires: item, quantity) + LOGIN (token passed in header)
+
 DELETE  (Requires:) + LOGIN (token passed in header)
 
+
 /orders
+
 POST    (Requires:) + LOGIN (token passed in header)
+
 GET     (Requires:) + LOGIN (token passed in header)
 
 
