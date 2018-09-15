@@ -20,9 +20,13 @@ PizzaServiceAPI provides following functionality:
 ****************************************************************************************************
 
 /users
+
 POST    (Requires: name, email, address, phone, password)
+
 GET     (Requires: phone) + LOGIN (token passed in header)
+
 PUT     (Requires: phone & one or more parameters to update) + LOGIN (token passed in header)
+
 DELETE  (Requires: phone) + LOGIN (token passed in header)
 
 /tokens
