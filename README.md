@@ -45,7 +45,6 @@ POST    (Requires:) + LOGIN (token passed in header)
 GET     (Requires:) + LOGIN (token passed in header)
 
 
-
 ****************************************************************************************************
 (Please refer to config file for application configuration settings)
 
