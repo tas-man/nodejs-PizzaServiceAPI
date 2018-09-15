@@ -2,12 +2,12 @@
 
 Restful API providing structures for managing users and orders 
 
-This project entails a backend for a fictional pizza service. 
-Written using nodejs, this project contains structures for managing users and allowing them to "log in" using tokens.
+This project consists of a backend for a pizza service. 
+Written exclusively using nodejs, this project contains structures for managing users and allowing them to "log in" using tokens.
 Users can also retrieve menu items, add items to their shopping cart and place orders.
 
-In addition the API integrates with stripe.com, providing the possiblity to perform credit card payments,
-and with mailgun.com, to send notifcation emails to users after a successful order has been placed.
+In addition, the API integrates with stripe.com, providing the possiblity to perform credit card payments,
+and with mailgun.com, to send notification emails to users after a successful order has been placed.
 (Documentation and api keys to these services may be found on their respective sites.)
 
 Menu items have been hardcoded for educational purposes.
