@@ -1,6 +1,6 @@
 # nodejs-PizzaServiceAPI
 
-Restful API providing structures for managing users and orders 
+Restful JSON API providing structures for managing users and orders.
 
 This project consists of a backend for a pizza service. 
 Written exclusively using nodejs, this project contains structures for managing users and allowing them to "log in" using tokens. Users can also retrieve menu items, add items to their shopping cart and place orders. 
