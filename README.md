@@ -23,11 +23,11 @@ PizzaServiceAPI provides following functionality:
 
 POST    (Requires: name, email, address, phone, password)
 
-GET     (Requires: phone) + LOGIN (token passed in header)
+GET     (Requires: phone, LOGIN(token))
 
-PUT     (Requires: phone & one or more parameters to update) + LOGIN (token passed in header)
+PUT     (Requires: phone & one or more parameters to update, LOGIN)
 
-DELETE  (Requires: phone) + LOGIN (token passed in header)
+DELETE  (Requires: phone, LOGIN)
 
 
 /tokens
@@ -43,25 +43,25 @@ DELETE  (Requires: token)
 
 /items
 
-GET     (Requires:) + LOGIN (token passed in header)
+GET     (Requires: LOGIN)
 
 
 /carts
 
-POST    (Requires: item, quantity) + LOGIN (token passed in header)
+POST    (Requires: item, quantity, LOGIN)
 
-GET     (Requires:) + LOGIN (token passed in header)
+GET     (Requires: LOGIN)
 
-PUT     (Requires: item, quantity) + LOGIN (token passed in header)
+PUT     (Requires: item, quantity, LOGIN)
 
-DELETE  (Requires:) + LOGIN (token passed in header)
+DELETE  (Requires: LOGIN)
 
 
 /orders
 
-POST    (Requires:) + LOGIN (token passed in header)
+POST    (Requires: LOGIN)
 
-GET     (Requires:) + LOGIN (token passed in header)
+GET     (Requires: LOGIN)
 
 
 ****************************************************************************************************
